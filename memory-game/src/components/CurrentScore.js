@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-function CurrentScore({ score }) {
-	return <div>Current score: {score}</div>;
+function CurrentScore({ currentScore }) {
+	return (
+		<div>
+			<h2>Current score: {currentScore}</h2>
+		</div>
+	);
 }
 
 export default CurrentScore;
